@@ -1,14 +1,19 @@
+import { Routes, Route } from 'react-router'
+import Navigation from './components/Navigation'
+import Home from './components/Home'
+import Aboutme from './components/Aboutme'
+import Projects from './components/Projects'
+
 function App() {
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center bg-gray-100 p-4">
-      <h1 className="text-4xl font-bold mb-4">
-        Justin Ott
-      </h1>
-      <p className="text-lg text-gray-700 max-w-xl text-center">
-        I am a computer science student at GVSU interested in software development,
-        networking, and building interactive web applications.
-      </p>
-    </div>
+    <>
+      <Navigation />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/aboutme" element={<Aboutme />} />
+        <Route path="/projects" element={<Projects />} />
+      </Routes>
+    </>
   )
 }
 
