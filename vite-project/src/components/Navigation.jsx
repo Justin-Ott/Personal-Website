@@ -13,7 +13,7 @@ export default function Navigation() {
   return (
     <Menubar>
       <MenubarMenu>
-        <MenubarTrigger>File</MenubarTrigger>
+        <MenubarTrigger>Navigate</MenubarTrigger>
         <MenubarContent>
           <MenubarItem asChild>
             <Link to="/">Home</Link>
