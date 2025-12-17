@@ -13,18 +13,15 @@ export default function Navigation() {
   return (
     <Menubar>
       <MenubarMenu>
-        <MenubarTrigger>Navigate</MenubarTrigger>
-        <MenubarContent>
-          <MenubarItem asChild>
-            <Link to="/">Home</Link>
-          </MenubarItem>
-          <MenubarItem asChild>
-            <Link to="/Aboutme">About Me</Link>
-          </MenubarItem>
-          <MenubarItem asChild>
-            <Link to="/Projects">Projects</Link>
-          </MenubarItem>
-        </MenubarContent>
+        <MenubarTrigger>
+          <Link to="/">Home</Link>
+        </MenubarTrigger>
+        <MenubarTrigger>
+          <Link to="/Aboutme">About Me</Link>
+        </MenubarTrigger>
+        <MenubarTrigger>
+          <Link to="/Projects">Projects</Link>
+        </MenubarTrigger>
       </MenubarMenu>
     </Menubar>
   )
