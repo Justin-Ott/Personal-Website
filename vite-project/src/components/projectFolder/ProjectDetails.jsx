@@ -1,9 +1,20 @@
-import { useParams, Link } from "react-router";
+import { useParams, useNavigate } from "react-router";
 import { ProjectData } from "./ProjectData";
 
 export default function ProjectDetail() {
   const { id } = useParams();
+  const navigate = useNavigate();
   const project = ProjectData.find((p) => p.id === id);
+
+  const backToProjects = () => {
+    navigate('/');
+    setTimeout(() => {
+      const element = document.getElementById('projects');
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth' });
+      }
+    }, 100);
+  };
 
   if (!project) {
     return <div className="text-white p-8">Project not found</div>;
@@ -11,9 +22,9 @@ export default function ProjectDetail() {
 
   return (
     <div className="min-h-screen bg-gray-600 text-white px-8 py-16">
-      <Link to="/projects" className="text-blue-400 hover:underline">
+      <button onClick={backToProjects} className="text-blue-400 hover:underline">
         ← Back to Projects
-      </Link>
+      </button>
 
       <div className={`mt-8 grid ${project.demo?.enabled ? "grid-cols-1 lg:grid-cols-2" : "grid-cols-1"} gap-12 max-auto`}>
         {/* Left Column - Project Info */}

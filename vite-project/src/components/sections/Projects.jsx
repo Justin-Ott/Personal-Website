@@ -1,18 +1,16 @@
 
 import { Link } from "react-router";
-import { ProjectData } from "../components/projectFolder/ProjectData";
+import { ProjectData } from "../projectFolder/ProjectData";
 
 export default function Projects() {
   return (
     <div className="min-h-screen bg-yellow-100 text-black px-8 py-16">
-      <h1 className="text-4xl font-bold mb-1 text-center">
+      <h1 className="text-7xl font-bold mb-12 text-center">
         Projects 
       </h1>
-      <h1 className="text-1xl font-bold mb-12 text-center">
-        Sizing will change as more projects are added
-      </h1>
 
-      <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+      <div className="flex justify-center">
+        <div className="grid gap-8 grid-cols-2 max-w-2xl">
         {ProjectData.map((project) => (
           <Link
             key={project.id}
@@ -41,6 +39,7 @@ export default function Projects() {
           </Link>
         ))}
       </div>
+    </div>
     </div>
   );
 }
