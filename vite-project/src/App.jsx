@@ -6,12 +6,15 @@ import Skills from './components/sections/Skills'
 import Projects from './components/sections/Projects'
 import ProjectDetails from './components/projectFolder/ProjectDetails'
 import Aboutme from './components/sections/Aboutme'
+import Contactme from './components/sections/Contactme'
 
 
 function App() {
   return (
     <>
       <Navigation />
+      <div className="absolute left-8 bg-blue-100 top-1/2 transform -translate-y-1/2 text-6xl opacity-20"></div>
+      <div className="artistic-column right" /> {/* Additional spacer for fixed nav */}
       <Routes>
         <Route path="/" element={
           <>
@@ -29,6 +32,9 @@ function App() {
             </div>
             <div id="aboutme">
               <Aboutme />
+            </div>
+            <div id="contactme">
+              <Contactme />
             </div>
           </>
         } />

@@ -1,6 +1,25 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+* {
+  cursor: default;
+}
+
+button,
+[role="button"],
+a,
+input[type="button"],
+input[type="submit"] {
+  cursor: pointer !important;
+}
+
+/* All descendants of clickable elements */
+a *,
+button * {
+  cursor: pointer !important;
+}
+
 /*
 This is shadcn's Ui theme feature but I am using tailwindcss for now
 @layer base {

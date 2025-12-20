@@ -84,6 +84,15 @@ export default function Navigation() {
             About Me
           </button>
         </NavigationMenuItem>
+
+        <NavigationMenuItem>
+          <button
+            onClick={() => scrollToSection('contactme')}
+            className={buttonClass}
+          >
+            Contact Me
+          </button>
+        </NavigationMenuItem>
       </NavigationMenuList>
     </NavigationMenu>
     </div>

@@ -4,8 +4,8 @@ import { ProjectData } from "../projectFolder/ProjectData";
 
 export default function Projects() {
   return (
-    <div className="min-h-screen bg-yellow-100 text-black px-8 py-16">
-      <h1 className="text-7xl font-bold mb-12 text-center">
+    <div className="h-auto bg-yellow-100 text-black px-8 py-32">
+      <h1 className="text-5xl font-bold mb-12 text-center">
         Projects 
       </h1>
 
