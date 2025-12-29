@@ -33,7 +33,7 @@ export default function ProjectDetail() {
             {project.title}
           </h1>
 
-          <p className="text-gray-300 mb-6">
+          <p className="text-gray-300 mb-6 whitespace-pre-wrap">
             {project.description}
           </p>
 
