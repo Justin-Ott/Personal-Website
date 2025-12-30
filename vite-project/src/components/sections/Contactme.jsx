@@ -13,6 +13,7 @@ import gitIcon from "../../assets/github-mark.png";
 import linkedInIcon from "../../assets/InBug-Black.png";
 
 const linkButtons = `flex justify-between mb-4 gap-4`;
+const buttonDetails = "rounded-xl hover:scale-105 hover:bg-white transition-transform";
 
 export default function Contactme() {
   const [open, setOpen] = useState(false);
@@ -26,7 +27,7 @@ export default function Contactme() {
       <div className="w-full max-w-xl flex flex-col">
       <div className="flex justify-between">
        <div className={linkButtons}>
-        <Button asChild variant="outline">
+        <Button asChild variant="outline" className={buttonDetails}>
           <a href="https://github.com/Justin-Ott" target="_blank" rel="noopener noreferrer">
             <img src={gitIcon} alt="" className="h-5 w-5" />
             GitHub
@@ -34,7 +35,7 @@ export default function Contactme() {
         </Button>
         </div>
         <div className={linkButtons}>
-        <Button asChild variant="outline">
+        <Button asChild variant="outline" className={buttonDetails}>
         <a href="https://www.linkedin.com/in/justin-ott/" target="_blank" rel="noopener noreferrer">
           <img src={linkedInIcon} alt="" className="h-5 w-5" />
             LinkedIn
@@ -45,13 +46,13 @@ export default function Contactme() {
     </div>
     </div>
 
-      <p className="text-lg text-gray-700 max-w-xl text-center">
+      <p className="text-lg max-w-xl text-center">
         Get in touch! Fill out the form below and I'll get back to you soon.
       </p>
       <div className="flex justify-center mt-4">
         <Dialog open={open} onOpenChange={setOpen}>
           <DialogTrigger asChild>
-            <Button variant="outline" size="lg">Send Me a Message</Button>
+            <Button variant="outline" size="lg" className={buttonDetails}>Send Me a Message</Button>
           </DialogTrigger>
           <DialogContent className="sm:max-w-md">
             <DialogHeader>

@@ -7,7 +7,7 @@ const TimelineLine = () => (
 export default function Experience() {
   return (
     <div className="h-auto flex flex-col items-center justify-center bg-blue-100 p-4 px-8 py-32">
-      <h2 className="text-5xl font-bold mb-4">Experience</h2>
+      <h2 className="text-5xl font-bold mb-6">Experience</h2>
       {/* Resume Download Button*/}
       <button>
       <div className="w-fit h-fit text-2xl font-bold bg-blue-300 mb-12 flex rounded-xl items-center justify-center p-6 hover:bg-blue-400 transition-colors shadow-lg">
@@ -37,19 +37,19 @@ export default function Experience() {
           September 2024
         </time>
         <p className="text-lg text-gray-700 mt-2">
-          After starting CIS 290 at GVSU I started applying for software engineering internships and have yet to receive any positions.
+          After starting CIS 290 at GVSU I started applying for software development internships and have yet to receive any positions.
         </p>
       </div>
     </div>
 
-        {/* Experience Item 1 */}
-        <div className="flex gap-6">
+      {/* Experience Item 2 */}
+      <div className="flex gap-6">
       {/* Vertical Line Column */}
         <TimelineLine />
       {/* Content Column */}
       <div className="pb-6">
         <h3 className="text-xl md:text-2xl font-bold tracking-wide">
-          Started Learning Computer Programming 
+          Started Computer Science Coursework
         </h3>
         <hr className="border-black my-2"></hr>
         <time className="text-xs md:text-sm font-bold tracking-wide uppercase text-gray-500">
@@ -61,6 +61,24 @@ export default function Experience() {
       </div>
     </div>
 
+      {/* Experience Item 3 */}
+      <div className="flex gap-6">
+      {/* Vertical Line Column */}
+        <TimelineLine />
+      {/* Content Column */}
+      <div className="pb-6">
+        <h3 className="text-xl md:text-2xl font-bold tracking-wide">
+          Introduced to Programming
+        </h3>
+        <hr className="border-black my-2"></hr>
+        <time className="text-xs md:text-sm font-bold tracking-wide uppercase text-gray-500">
+          August 2021
+        </time>
+        <p className="text-lg text-gray-700 mt-2">
+          Started learning the basics of programming in my highschool AP Computer Science Principles class.
+        </p>
+      </div>
+    </div>
       </div>
     </div>
   )
