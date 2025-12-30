@@ -13,7 +13,7 @@ import gitIcon from "../../assets/github-mark.png";
 import linkedInIcon from "../../assets/InBug-Black.png";
 
 const linkButtons = `flex justify-between mb-4 gap-4`;
-const buttonDetails = "rounded-xl hover:scale-105 hover:bg-white transition-transform";
+const buttonDetails = "rounded-xl shadow-md hover:scale-105 hover:bg-white transition-transform";
 
 export default function Contactme() {
   const [open, setOpen] = useState(false);
