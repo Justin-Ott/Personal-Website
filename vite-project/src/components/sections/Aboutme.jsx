@@ -26,8 +26,7 @@ export default function Aboutme() {
             well as minors in mathematics and cybersecurity. My main areas of interest are software 
             development and web development, which you can see in the projects that I have posted both on this site 
             and on my GitHub. I have yet to really dive into more software development focused 
-            personal projects, as I don't really have any great ideas of what to build.
-            Recently, I have been leaning more into the web development and front-end side of things as I really 
+            personal projects. Recently, I have been leaning more into the web development and front-end side of things as I really 
             enjoy building interactive web applications, and web games and then being able to interact with what I built.
           </p>
       </div>
