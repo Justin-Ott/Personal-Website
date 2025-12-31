@@ -10,7 +10,10 @@ import Contactme from './components/sections/Contactme'
 import AdminLogin from './components/sections/AdminLogin'
 import AdminDashboard from './components/sections/AdminDashboard'
 
-
+/** Main Application Component
+ * - Sets up routing for different sections and pages
+ * - Includes Navigation bar and section components
+ */
 function App() {
   return (
     <>

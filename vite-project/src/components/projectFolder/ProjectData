@@ -1,3 +1,4 @@
+// Project descriptions and data for ProjectDetails page
 export const ProjectData = [
   {
     id: "Minesweeper",
@@ -10,8 +11,8 @@ export const ProjectData = [
       aspectRatio: "aspect-video lg:aspect-[12.8/10]",
     },
     links: {
-        github: "https://github.com/justin-ott/Minesweeper",
-        demo: "https://justin-ott.github.io/Minesweeper/",
+      github: "https://github.com/justin-ott/Minesweeper",
+      demo: "https://justin-ott.github.io/Minesweeper/",
     }
   },
   {
@@ -24,8 +25,8 @@ export const ProjectData = [
       enabled: false,
     },
     links: {
-        github: "https://github.com/Justin-Ott/Yar",
-        demo: "https://justin-ott.github.io/Yar/",
+      github: "https://github.com/Justin-Ott/Yar",
+      demo: "https://justin-ott.github.io/Yar/",
     }
   },
 ];

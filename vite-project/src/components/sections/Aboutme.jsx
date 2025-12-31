@@ -5,6 +5,7 @@ export default function Aboutme() {
     // style={{ backgroundImage: 'url(/LegoLoop.gif)', backgroundSize: 'cover', backgroundPosition: 'center' }}
     >
       <h2 className="text-5xl font-bold mb-6">About Me</h2>
+      { /* Currently 3 sections of information about my programming experience */}
       <div className="max-w-4xl w-full space-y-8">
       <div className="bg-white rounded-xl shadow-md p-6">
         <h3 className="text-2xl font-semibold mb-3 text-green-700">My Journey</h3>

@@ -12,8 +12,12 @@ import {
   FormLabel,
   FormMessage,
 } from "./ui/form";
-import { AlertCircle, CheckCircle } from "lucide-react";
 
+/** Contact Form Component
+ * - Uses react-hook-form for form state management and validation
+ * - Submits form data to Firestore 'submissions' collection
+ * - Displays success or error messages based on submission result
+*/
 export default function ContactForm({ onSuccess }) {
   const form = useForm({
     defaultValues: {
@@ -44,7 +48,7 @@ export default function ContactForm({ onSuccess }) {
       alert("Error submitting form. Please try again.");
     }
   };
-
+  // Contact Form UI
   return (
     <div className="w-full">
       <Form {...form}>

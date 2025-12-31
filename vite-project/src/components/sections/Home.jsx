@@ -1,3 +1,6 @@
+// Home Section introducing me seen when loading the site
+// This might be to simple but I did not want to add a photo to this page 
+// and everything else is in the site already
 export default function Home() {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-orange-100 p-4">
