@@ -7,6 +7,8 @@ import Projects from './components/sections/Projects'
 import ProjectDetails from './components/projectFolder/ProjectDetails'
 import Aboutme from './components/sections/Aboutme'
 import Contactme from './components/sections/Contactme'
+import AdminLogin from './components/sections/AdminLogin'
+import AdminDashboard from './components/sections/AdminDashboard'
 
 
 function App() {
@@ -39,6 +41,8 @@ function App() {
           </>
         } />
         <Route path="/projects/:id" element={<ProjectDetails />} />
+        <Route path="/admin/login" element={<AdminLogin />} />
+        <Route path="/admin/dashboard" element={<AdminDashboard />} />
       </Routes>
     </>
   )
