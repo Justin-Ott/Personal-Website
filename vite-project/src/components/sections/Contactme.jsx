@@ -23,7 +23,7 @@ export default function Contactme() {
   const [open, setOpen] = useState(false);
 
   return (
-    <div className="h-auto flex flex-col items-center justify-center bg-pink-100 p-4 px-8 py-16">
+    <div className="h-auto flex flex-col items-center justify-center bg-orange-100 p-4 px-8 py-16">
       <h2 className="text-5xl font-bold mb-4">Contact Me</h2>
       <h2 className="text-3xl font-bold mb-4">Links</h2>
       {/*<div className="w-full max-w-xl flex flex-col">*/}
