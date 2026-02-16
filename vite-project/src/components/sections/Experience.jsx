@@ -29,7 +29,26 @@ export default function Experience() {
       {/* Timeline Container */}
       <div className="w-full max-w-xl flex flex-col">
 
-        {/* Experience Item 2 */}
+        {/* Experience Item 4 */}
+        <div className="flex gap-6">
+          {/* Vertical Line Column */}
+          <TimelineLine />
+          {/* Content Column */}
+          <div className="pb-6">
+            <h3 className="text-xl md:text-2xl font-bold tracking-wide">
+              Started Blue Nucleus Internship
+            </h3>
+            <hr className="border-black my-2"></hr>
+            <time className="text-xs md:text-sm font-bold tracking-wide uppercase text-gray-500">
+              January 2026
+            </time>
+            <p className="text-lg text-gray-700 mt-2">
+              Started my internship at Blue Nucleus working on the depression detection project. 
+            </p>
+          </div>
+        </div>
+
+        {/* Experience Item 3 */}
         <div className="flex gap-6">
           {/* Vertical Line Column */}
           <TimelineLine />
@@ -67,7 +86,7 @@ export default function Experience() {
           </div>
         </div>
 
-        {/* Experience Item 3 */}
+        {/* Experience Item 1 */}
         <div className="flex gap-6">
           {/* Vertical Line Column */}
           <TimelineLine />
