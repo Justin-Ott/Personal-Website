@@ -62,7 +62,7 @@ export default function Experience() {
               September 2024
             </time>
             <p className="text-lg text-gray-700 mt-2">
-              After starting the pre-requisite internship course, I started doing more and more personal projects to expand my skill set 
+              After starting the pre-requisite internship course, I started doing more and more personal projects to expand my skill set. 
             </p>
           </div>
         </div>
