@@ -33,8 +33,8 @@ export default function Aboutme() {
       <div className="bg-white rounded-xl shadow-md p-6">
         <h3 className="text-2xl font-semibold mb-3 text-green-700">What I am Looking For</h3>
           <p className="text-lg text-gray-700">
-            I am currently missing the internship requirement for my degree, and have been
-            actively applying to internships. I am really open to any internship or job 
+            I am currently finishing the internship requirement for my degree with Blue Nucleus at GVSU, and have been
+            actively applying to summer positions. I am really open to any internship or job 
             opportunities that come my way in the field of computer science. As, even if 
             I am not offered a full-time postion with the company after the internship, I know that I 
             will learn a lot from the experience, which I will be able to carry and apply to future opportunities.
