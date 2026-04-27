@@ -9,14 +9,20 @@ A modern, responsive portfolio website showcasing projects, skills, and experien
 
 ## 📸 Screenshots
 
-![Portfolio Hero](./portfolio/public/screenshots/hero.png)
+### Hero Section
 *Main landing page with featured projects*
 
-![Projects Section](./portfolio/public/screenshots/projects.png)
+![Portfolio Hero](./portfolio/public/screenshots/hero.png)
+
+### Projects Section
 *Showcase of featured work and case studies*
 
+![Projects Section](./portfolio/public/screenshots/projects.png)
+
+### Contact Form
+*Professional contact section with Firebase integration*
+
 ![Contact Form](./portfolio/public/screenshots/contact.png)
-*Professional contact section with Firebase integration*!
 
 ---
 
