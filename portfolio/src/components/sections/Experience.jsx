@@ -55,14 +55,14 @@ export default function Experience() {
           {/* Content Column */}
           <div className="pb-6">
             <h3 className="text-xl md:text-2xl font-bold tracking-wide">
-              Started Applying for Internships
+              Started Expanding Skill Set 
             </h3>
             <hr className="border-black my-2"></hr>
             <time className="text-xs md:text-sm font-bold tracking-wide uppercase text-gray-500">
               September 2024
             </time>
             <p className="text-lg text-gray-700 mt-2">
-              After starting CIS 290 at GVSU I started applying for software development internships and have yet to receive any positions.
+              After starting the pre-requisite internship course, I started doing more and more personal projects to expand my skill set. 
             </p>
           </div>
         </div>
