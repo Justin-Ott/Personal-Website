@@ -15,7 +15,7 @@ export default function Projects() {
       </h1>
 
       <div className="flex justify-center">
-        <div className="grid gap-8 grid-cols-2 max-w-2xl">
+        <div className="grid gap-8 grid-cols-4 max-w-4xl">
           {ProjectData.map((project) => (
             <Link
               key={project.id}

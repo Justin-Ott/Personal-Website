@@ -29,4 +29,18 @@ export const ProjectData = [
       demo: "https://justin-ott.github.io/Yar/",
     }
   },
+   {
+    id: "BrokeTracker",
+    title: "BrokeTracker",
+    icon: "./projectIcons/Broketracker.gif",
+    description: "A simple expense tracker built with React and Node.js.",
+    tech: ["JavaScript", "React", "Node.js", "Express", "MongoDB"],
+    demo: {
+      enabled: true,
+    },
+    links: {
+      github: "https://github.com/Justin-Ott/BrokeTracker",
+      demo: "https://justin-ott.github.io/BrokeTracker/",
+    }
+  },
 ];
